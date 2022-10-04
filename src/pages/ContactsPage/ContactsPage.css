@@ -34,7 +34,7 @@
     .tel,
     .marquee,
     .email {
-        font-size: 35px;
+        font-size: 30px;
         padding: 20px;
     }
 }
@@ -53,7 +53,7 @@
     .tel,
     .marquee,
     .email {
-        font-size: 30px;
+        font-size: 25px;
         padding: 25px;
     }
 }
