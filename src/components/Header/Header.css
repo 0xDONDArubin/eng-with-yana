@@ -1,0 +1,49 @@
+.header {
+    position: absolute;
+    min-height: 5%;
+    height: 7%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+}
+
+.nav {
+    min-width: 70%;
+    display: flex;
+    margin: 0 auto;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:620px) {
+    .header {
+        height: 10%;
+    }
+
+    .link {
+        font-size: 33px;
+        padding: 0px 15px 0 15px;
+    }
+}
+
+@media (max-width:480px) {
+    .header {
+        height: 25%;
+    }
+
+    .link {
+        font-size: 35px;
+        padding: 5px 0 5px 0;
+    }
+
+    .nav {
+        align-items: center;
+        flex-direction: column;
+    }
+}

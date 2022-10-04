@@ -1,0 +1,28 @@
+.footer{
+    position: absolute;
+    min-height: 5%;
+    height: 7%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:620px) {
+    .footer{
+        font-size: 28px;
+    }
+}
+
+@media (max-width:454px) {
+    .footer{
+        font-size: 21px;
+    }
+}
+
+@media (max-width:300px) {
+    .footer{
+        font-size: 19px;
+    }
+}

@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family: "OxygenLight";
+    src: local("OxygenLight"),
+        url("../../fonts/Oxygen-Light.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "OxygenRegular";
+    src: local("OxygenRegular"),
+        url("../../fonts/Oxygen-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
