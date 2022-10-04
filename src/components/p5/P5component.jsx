@@ -120,7 +120,7 @@ function sketch(p5) {
     p5.push()
     p5.textSize(p5.width / 10)
     p5.textFont('OxygenRegular')
-    p5.text(letters[7], (2/8 + 0.0125) * p5.width, (4/8) * p5.height) // w by the way
+    p5.text(letters[7], (2/8 + 0.0125) * p5.width, (4/8 + 0.003) * p5.height) // w by the way
     p5.pop()
     p5.text(letters[8], (3/8 + 0.05) * p5.width, (4/8) * p5.height)
     p5.text(letters[9], (4/8 + 0.03125) * p5.width, (4/8) * p5.height)
