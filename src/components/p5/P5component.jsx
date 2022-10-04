@@ -108,28 +108,28 @@ function sketch(p5) {
 
     
 
-    p5.text(letters[0], (2/8 + 0.025) * p5.width, (2/8 - 0.01875) * p5.height)
-    p5.text(letters[1], (3/8 + 0.015625) * p5.width, (2/8 - 0.01875) * p5.height)
-    p5.text(letters[2], (4/8 + 0.015625) * p5.width, (2/8 - 0.01875) * p5.height)
+    p5.text(letters[0], (2/8 + 0.025) * p5.width, (2/8) * p5.height)
+    p5.text(letters[1], (3/8 + 0.015625) * p5.width, (2/8) * p5.height)
+    p5.text(letters[2], (4/8 + 0.015625) * p5.width, (2/8) * p5.height)
 
-    p5.text(letters[3], (2/8 + 0.025) * p5.width, (3/8 - 0.01875) * p5.height)
-    p5.text(letters[4], (3/8 + 0.05) * p5.width, (3/8 - 0.01875) * p5.height)
-    p5.text(letters[5], (4/8 + 0.025) * p5.width, (3/8 - 0.01875) * p5.height)
-    p5.text(letters[6], (5/8 + 0.016) * p5.width, (3/8 - 0.01875) * p5.height)
+    p5.text(letters[3], (2/8 + 0.025) * p5.width, (3/8) * p5.height)
+    p5.text(letters[4], (3/8 + 0.05) * p5.width, (3/8) * p5.height)
+    p5.text(letters[5], (4/8 + 0.025) * p5.width, (3/8) * p5.height)
+    p5.text(letters[6], (5/8 + 0.016) * p5.width, (3/8) * p5.height)
 
     p5.push()
     p5.textSize(p5.width / 10)
     p5.textFont('OxygenRegular')
-    p5.text(letters[7], (2/8 + 0.0125) * p5.width, (4/8 - 0.0025) * p5.height) // w by the way
+    p5.text(letters[7], (2/8 + 0.0125) * p5.width, (4/8) * p5.height) // w by the way
     p5.pop()
-    p5.text(letters[8], (3/8 + 0.05) * p5.width, (4/8 - 0.01875) * p5.height)
-    p5.text(letters[9], (4/8 + 0.03125) * p5.width, (4/8 - 0.01875) * p5.height)
-    p5.text(letters[10], (5/8 + 0.016) * p5.width, (4/8 - 0.01875) * p5.height)
+    p5.text(letters[8], (3/8 + 0.05) * p5.width, (4/8) * p5.height)
+    p5.text(letters[9], (4/8 + 0.03125) * p5.width, (4/8) * p5.height)
+    p5.text(letters[10], (5/8 + 0.016) * p5.width, (4/8) * p5.height)
 
-    p5.text(letters[11], (2/8 + 0.0275) * p5.width, (5/8  - 0.01875) * p5.height)
-    p5.text(letters[12], (3/8 + 0.025) * p5.width, (5/8  - 0.01875) * p5.height)
-    p5.text(letters[13], (4/8 + 0.015625) * p5.width, (5/8 - 0.01875) * p5.height)
-    p5.text(letters[14], (5/8 + 0.025) * p5.width, (5/8  - 0.01875) * p5.height)
+    p5.text(letters[11], (2/8 + 0.0275) * p5.width, (5/8) * p5.height)
+    p5.text(letters[12], (3/8 + 0.025) * p5.width, (5/8) * p5.height)
+    p5.text(letters[13], (4/8 + 0.015625) * p5.width, (5/8) * p5.height)
+    p5.text(letters[14], (5/8 + 0.025) * p5.width, (5/8) * p5.height)
     p5.pop()
 
     drawLines()
