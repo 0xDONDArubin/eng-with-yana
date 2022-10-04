@@ -57,7 +57,7 @@
 
     .articles_block{
         max-width: 90%;
-        padding: 0px 0px 100px 30px;
+        padding: 100px 0px 100px 30px;
     }
 
     .article-title{
@@ -81,7 +81,7 @@
 
     .articles_block{
         max-width: 100%;
-        padding: 0px 10px 0 20px;
+        padding: 100px 10px 0 20px;
     }
 }
 
