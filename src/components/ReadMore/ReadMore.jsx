@@ -12,7 +12,7 @@ const ReadMore = ({ text }) => {
   return (
     <div className='article-current-text'>
       {isReadMoreShow ? text : ''}
-      <button className='read-more_btn' onClick={openText}> {isReadMoreShow ? "🡹 Скрыть" : "🡻 Читать далее... "}</button>
+      <button className='read-more_btn' onClick={openText}> {isReadMoreShow ? "Скрыть" : "Читать далее... "}</button>
     </div>
   )
 }
