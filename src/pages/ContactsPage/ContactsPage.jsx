@@ -8,9 +8,9 @@ const ContactsPage = () => {
       <BackToMainPage />
       <div className='contacts-block'>
         <div className='contacts-block_container'>
-          <p className='tel'>+7 777 77 77 777</p>
+          <p className='tel'>+7-987-357-13-90</p>
           <marquee className='marquee' direction="left" scrollamount="8" vspace="100px">Telegram WhatsApp Viber</marquee>
-          <p className='email'>Email@mail.ru</p>
+          <p className='email'>engwithyana@gmail.com</p>
         </div>
       </div>
     </>
