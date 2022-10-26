@@ -2,6 +2,7 @@ import React from 'react'
 import './AboutMePage.css'
 import BackToMainPage from '../../components/BackToMainPage/BackToMainPage'
 import img from '../../img/1.png';
+import img3 from '../../img/IMG_3146.png';
 // import img2 from '../../img/mdd.jpg';
 
 const AboutMePage = () => {
@@ -24,7 +25,7 @@ const AboutMePage = () => {
               </p>  
             </div>
             <div className="about-me_img">
-              <img className='about-me_current-img' alt='' src={img} />
+              <img className='about-me_current-img' alt='' src={img3} />
             </div>
           </div>
         </div>
